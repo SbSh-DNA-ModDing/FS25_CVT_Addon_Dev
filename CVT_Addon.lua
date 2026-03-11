@@ -46,6 +46,9 @@
 	-- spec.forDBL_drivinglevelcount
 	-- spec.forDBL_drivinglevel
 	-- spec.forDBL_tmspedalforDBL_tmspedal
+	-- forDBL_motorcoldlamp
+	-- forDBL_isvariotm
+	-- forDBL_ismanualtm
 
 --ToDo's
 	-- last changes
@@ -87,10 +90,10 @@ source(CVTaddon.modDirectory.."events/SyncClientServerEvent.lua")
 source(g_currentModDirectory.."gui/CVTaddonGui.lua")
 g_gui:loadGui(g_currentModDirectory.."gui/CVTaddonGui.xml", "CVTaddonGui", CVTaddonGui:new())
 
-local scrversion = "0.9.9.109";
-local lastupdate = "4.2.2026"
-local timestamp = "1770209242126";
-local savetime = "13:47:22";
+local scrversion = "0.9.9.119";
+local lastupdate = "10.3.2026"
+local timestamp = "1773153139592";
+local savetime = "15:32:19";
 local modversion = CVTaddon.modversion; -- moddesc
 CVTaddon.build = scrversion
 
@@ -123,21 +126,26 @@ peakMotorTorqueOrigin = 0
 
 
 function addCVTconfig(self, superfunc, xmlFile, baseXMLName, baseDir, customEnvironment, isMod, storeItem)
+
+	if (g_vehicleConfigurationManager:getNumOfConfigurationTypes() + 1) >= 2 ^ ConfigurationUtil.SEND_NUM_BITS then -- extract config limit fixed by Bene, thx to him
+        ConfigurationUtil.SEND_NUM_BITS = ConfigurationUtil.SEND_NUM_BITS + 1
+    end
+
     local configurations, defaultConfigurationIds = superfunc(self, xmlFile, baseXMLName, baseDir, customEnvironment, isMod, storeItem)
 	local category = storeItem.categoryName -- Category types for add_shopConfig
 	if 
-		(	category == "TRACTORSS" 		 or	category == "TRACTORSM"			 or	category == "TRACTORSL"
-		or	category == "HARVESTERS" 		 or	category == "FORAGEHARVESTERS" 	 or	category == "BEETVEHICLES"		or	category == "POTATOVEHICLES"
-		or 	category == "VEGETABLEHARVESTERS" or category == "SPINACHHARVESTERS" or category == "OLIVEVEHICLES"
-		or	category == "COTTONVEHICLES" 	 or	category == "SPRAYERVEHICLES"	 or  category == "SLURRYVEHICLES"	or	category == "SUGARCANEVEHICLES"
-		or	category == "MOWERVEHICLES"		 or	category == "MISCVEHICLES"		 or	category == "GRAPEVEHICLES"		or	category == "MOWERS"
-		or 	category == "FRONTLOADERVEHICLES" or category == "TELELOADERVEHICLES" or category == "SKIDSTEERVEHICLES" or category == "WHEELLOADERVEHICLES"
-		or 	category == "CARS" 				 or category == "TRUCKS" 			 or category == "MISC"
-		or 	category == "FORKLIFTS" 		 or category == "BEETHARVESTERS" 	 or category == "MISCDRIVABLES" 	or 	category == "HANDTOOLSMISC"
-		or 	category == "FORESTRYMISC"		or 	category == "WOODCHIPPERS"		or 	category == "FORESTRYEXCAVATORS" 
-		or 	category == "FORESTRYFORWARDERS" or category == "FORESTRYHARVESTERS" or category == "FORAGEMIXERS"		or 	category == "GRAPEHARVESTERS"
-		or 	category == "COTTONHARVESTERS"	or 	category == "SUGARCANEHARVESTERS"	or 	category == "RICEHARVESTERS" or category == "RICEPLANTERS"
-		or 	category == "PEAHARVESTERS"		or 	category == "GREENBEANHARVESTERS"	or 	category == "POTATOHARVESTING"
+		(	category == "TRACTORSS" 		  or	category == "TRACTORSM"			  or	category == "TRACTORSL"
+		or	category == "HARVESTERS" 		  or	category == "FORAGEHARVESTERS" 	  or	category == "BEETVEHICLES"		or	category == "POTATOVEHICLES"
+		or 	category == "VEGETABLEHARVESTERS" or 	category == "SPINACHHARVESTERS"   or 	category == "OLIVEVEHICLES"
+		or	category == "COTTONVEHICLES" 	  or	category == "SPRAYERVEHICLES"	  or 	category == "SLURRYVEHICLES"	or	category == "SUGARCANEVEHICLES"
+		or	category == "MOWERVEHICLES"		  or	category == "MISCVEHICLES"		  or	category == "GRAPEVEHICLES"		or	category == "MOWERS"
+		or 	category == "FRONTLOADERVEHICLES" or 	category == "TELELOADERVEHICLES"  or 	category == "SKIDSTEERVEHICLES" or  category == "WHEELLOADERVEHICLES"
+		or 	category == "CARS" 				  or 	category == "TRUCKS" 			  or 	category == "MISC"
+		or 	category == "FORKLIFTS" 		  or 	category == "BEETHARVESTERS" 	  or 	category == "MISCDRIVABLES" 	or 	category == "HANDTOOLSMISC"
+		or 	category == "FORESTRYMISC"		  or 	category == "WOODCHIPPERS"		  or 	category == "FORESTRYEXCAVATORS" 
+		or 	category == "FORESTRYFORWARDERS"  or 	category == "FORESTRYHARVESTERS"  or 	category == "FORAGEMIXERS"		or 	category == "GRAPEHARVESTERS"
+		or 	category == "COTTONHARVESTERS"	  or 	category == "SUGARCANEHARVESTERS" or 	category == "RICEHARVESTERS" 	or  category == "RICEPLANTERS"
+		or 	category == "PEAHARVESTERS"		 or 	category == "GREENBEANHARVESTERS" or 	category == "POTATOHARVESTING"
 		or 	category == "BEETLOADING"
 
 		--DLCs
@@ -653,6 +661,8 @@ function CVTaddon:onLoad(savegame)
 	spec.forDBL_brakescale = 0.0
 	spec.forDBL_autoreverseworklight = 1
 	spec.forDBL_autoreverseworklightseconds = 3
+	spec.forDBL_ismanualtm = false
+	spec.forDBL_isvariotm = false
 	
 	-- #GLOWIN-TEMP-SYNC
 	-- spec.SyncMotorTemperature = 20 -- temp
@@ -671,7 +681,7 @@ function CVTaddon:onLoad(savegame)
 
 	if spec.vOne ~= nil then
 		if not spec.isVarioTM then
-			spec.forDBL_drivinglevel = (7)
+			spec.forDBL_drivinglevel = tostring("n")
 		else
 			spec.forDBL_drivinglevel = (spec.vOne)
 		end
@@ -885,6 +895,8 @@ function CVTaddon:onPostLoad(savegame)
 	spec.forDBL_highpressure = 0
 	spec.forDBL_autoreverseworklight = 1
 	spec.forDBL_autoreverseworklightseconds = 3
+	spec.forDBL_ismanualtm = false
+	spec.forDBL_isvariotm = false
 	if spec.CVTdamage ~= nil then
 		spec.forDBL_cvtwear = spec.CVTdamage
 	else
@@ -903,7 +915,7 @@ function CVTaddon:onPostLoad(savegame)
 
 	if spec.vOne ~= nil then
 		if not spec.isVarioTM then
-			spec.forDBL_drivinglevel = (7)
+			spec.forDBL_drivinglevel = tostring("n")
 			-- spec.forDBL_drivinglevel = tostring(" ")
 		else
 			spec.forDBL_drivinglevel = (spec.vOne)
@@ -919,7 +931,7 @@ function CVTaddon:onPostLoad(savegame)
 	spec.forDBL_digitalhandgasstep = (spec.vFive)
 	if spec.vTwo ~= nil then
 		if not spec.isVarioTM then
-			spec.forDBL_accramp = (7)
+			spec.forDBL_accramp = tostring("n")
 			-- spec.forDBL_accramp = tostring(" ")
 		else
 			spec.forDBL_accramp = (spec.vTwo)
@@ -2469,6 +2481,8 @@ function CVTaddon:onUpdateTick(dt, isActiveForInput, isActiveForInputIgnoreSelec
 	local isFFF = storeItem.categoryName == "FORKLIFTS"
 	local samples = specMF.samples
 	spec.isVarioTM = self.spec_motorized.motor.lastManualShifterActive == false and self.spec_motorized.motor.groupType == 1 and self.spec_motorized.motor.gearType == 1 and self.spec_motorized.motor.forwardGears == nil
+	spec.forDBL_isvariotm = spec.isVarioTM
+	spec.forDBL_ismanualtm = not spec.isVarioTM
 	if self.spec_motorized.motorTemperature.valueMin == 20 then
 		self.spec_motorized.motorTemperature.valueMin = -10
 	end
@@ -3089,15 +3103,15 @@ function CVTaddon:onUpdateTick(dt, isActiveForInput, isActiveForInputIgnoreSelec
 							spec.CVTCanStart = false
 						elseif spec.CVTCanStart == true and (airTemp > 6 or self.spec_motorized.motorTemperature.value >= 40 ) then
 							spec.CVTCanStart = true
-							print("CHECKPOINT 3b ###############")
+							-- print("CHECKPOINT 3b ###############")
 						else
 							spec.CVTCanStart = true
-							print("CHECKPOINT 3a ###############")
+							-- print("CHECKPOINT 3a ###############")
 						end
 					end
 				end
 			else
-				print("CHECKPOINT else")
+				-- print("CHECKPOINT else")
 				if ((g_ignitionLockManager:getIsAvailable() and self:getMotorState() == 1) or (not g_ignitionLockManager:getIsAvailable() and self:getMotorState() == 4)) and spec.preGlow ~= 0 then
 					if self.spec_motorized.motor.lastMotorRpm >= ( self.spec_motorized.motor.minRpm - 10 ) and spec.CVTconfig ~= 9 then
 						-- if spec.forDBL_pregluefinished then -- new gluefinish fail!
@@ -7003,7 +7017,7 @@ function CVTaddon:onReadStream(streamId, connection)
 
 	if spec.vOne ~= nil then
 		if not spec.isVarioTM then
-			spec.forDBL_drivinglevel = (7)
+			spec.forDBL_drivinglevel = tostring("n")
 		else
 			spec.forDBL_drivinglevel = (spec.vOne)
 		end

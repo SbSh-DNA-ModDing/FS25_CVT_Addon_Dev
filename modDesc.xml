@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="105">
+<modDesc descVersion="106">
     <author>SbSh</author>
 	<contributor>Glowin</contributor>
-	<version>2.c.1.4</version>
+	<version>2.c.1.5</version>
 	<title>
         <en>CVT Addon</en>
     </title>
@@ -387,6 +387,5 @@ https://github.com/s4t4n/FS25_CVT_Addon
 		<actionBinding action="SETPIPELIGHT">
 			<binding device="KB_MOUSE_DEFAULT" input="" />
 		</actionBinding>
-		
 	</inputBinding>
 </modDesc>
