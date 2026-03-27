@@ -146,6 +146,7 @@ Stellt man diesen Wert nun auf geringe, wären es 22 km/h, sehr gering dann 15.5
 		<text name="input_SETVARIOADIFFS" text="CVTa: AWD und DIFF Automatik" />
 		<text name="input_CVT_SHOWGUI" text="CVTa: Einstellungen Menü öffnen" />
 		<text name="input_CVT_TOGGLEARWL" text="CVTa: Umschalten Auto-Arbeitslicht Rückwärts fahren" />
+		<text name="input_SETTOGGLETOPLIGHT" text="CVTa: Umschalten Toplichter oder Bottomlichter" />
 		<text name="input_SETVARIORPM_AXIS" text="CVTa: Handgas Achse" />
 		<text name="input_SETVARIORPMP" text="CVTa: Motordrehzahl erhöhen" />
 		<text name="input_SETVARIORPMM" text="CVTa: Motordrehzahl verringern" />

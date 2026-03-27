@@ -148,6 +148,7 @@ If you place this value on low, it would be 22 kph, very little then 15.5 kph.Th
 		<text name="input_SETVARIOADIFFS" text="CVTa: AWD and DIFF Automatic" />
 		<text name="input_CVT_SHOWGUI" text="CVTa: Open settings menu" />
 		<text name="input_CVT_TOGGLEARWL" text="CVTa: Toggle Auto-Worklight reversedrive" />
+		<text name="input_SETTOGGLETOPLIGHT" text="CVTa: Toggle between toplights and bottomlights" />
 		<text name="input_SETVARIORPM_AXIS" text="CVTa: Handgas axis" />
 		<text name="input_SETVARIORPMP" text="CVTa: Increase the engine speed" />
 		<text name="input_SETVARIORPMM" text="CVTa: Reduce the engine speed" />
