@@ -18,6 +18,9 @@
 		<text name="cvtgui_Cvthud" text="Visibilidade" />
 		<text name="CVTAgui_CvthudPos" text="Posição" />
 		<text name="variantTT" text="Selecione a variante da transmissão, existe uma variedade de diferentes transmissões contínuas." />
+		<text name="HSTshuttleStateSettingTT" text="Fahrzeuge mir Pedalwippe oder 2 Pedalsystem können alternativ mit der Kupplung den Richtungswechseln vornehmen.
+Modernere Maschinen z.B. Hoflader haben u.a. am Joystick einen Taster für diese Funktion." />
+		<text name="startWithClutchTT" text="Das treten des Kupplungspedales wird vorrausgesetzt, wie es bei einigen Fahrzeugen auch in RL ist - und bei anderen widerrum nicht." />
 		<text name="CvthudTT" text="HUD Visível ou desativar o ecrã." />
 		<text name="CvthudPOSTT" text="Posição do HUD." />
 		<text name="CVTAguiHUD_on" text="ligado" />
@@ -107,6 +110,10 @@
 		<text name="selection_hst_hst" text="HST" />
 		<text name="selection_hst_hydrostat" text="Hidrostato" />
 		<text name="selection_hst_brake" text="Pedal de condução único" />
+		<text name="selection_noClutch" text="Keine Kupplung" />
+		<text name="selection_withCluth" text="Mit Kupplung" />
+		<text name="selection_shuttle_shift" text="Wechseltaster" />
+		<text name="selection_shuttle_clutch" text="Kupplungspedal" />
 		<text name="text_HST_installed_short" text="HST Hidrostato" />
 		<text name="text_CVT_Installed_short" text="Ativo" />
 		<text name="text_CVT_Installed_desc" text="CVT-Addon ativo e configurável na GUI." />
@@ -117,11 +124,14 @@
 		<text name="input_SETVARIOTWO" text="CVTa: Nível de Condução 2" />
 		<text name="input_SETVARIO3" text="CVTa: Nível de Condução 3" />
 		<text name="input_SETVARIO4" text="CVTa: Nível de Condução 4" />
+		<text name="input_SETVARIOUP" text="CVTa: Fahrbereich erhöhen" />
+		<text name="input_SETVARIODN" text="CVTa: Fahrbereich verringern" />
 		<text name="input_SETVARIOTOGGLE" text="CVTa: Alternar Nível de Condução" />
 		<text name="input_SETVARION" text="CVTa: Neutro" />
 		<text name="input_SETVARIOADIFFS" text="CVTa: AWD e Diferencial Automático" />
 		<text name="input_CVT_SHOWGUI" text="CVTa: Abrir menu de configurações" />
 		<text name="CVT_TOGGLEARWL" text="CVTa: Alternar Luz de Trabalho Automática ao inverter" />
+		<text name="input_SETTOGGLETOPLIGHT" text="CVTa: Umschalten Toplichter oder Bottomlichter" />
 		<text name="input_SETVARIORPM_AXIS" text="CVTa: Eixo do acelerador manual" />
 		<text name="input_SETVARIORPMP" text="CVTa: Aumentar a velocidade do motor" />
 		<text name="input_SETVARIORPMM" text="CVTa: Reduzir a velocidade do motor" />
@@ -130,6 +140,10 @@
 		<text name="input_SETPREGLOW" text="CVTa: Pré-aquecer velas de incandescência" />
 		<text name="input_SIGNAL_HIGH_BEAM" text="CVTa: Flash de máximos" />
 		<text name="input_SIGNAL_HOLD_BEAM" text="CVTa: Flash de máximos" />
+		<text name="input_SETVCAAWD" text="VCA: Allrad umschalten" />
+		<text name="input_SETVCAFRONTDIFF" text="VCA: Differentialsperre Vorne" />
+		<text name="input_SETPIPELIGHT" text="CVT: Pipelicht umschalten" />
+		<text name="input_SETVCAREARDIFF" text="VCA: Differentialsperre Hinten" />
 		<text name="input_LMBF_TOGGLE_RAMP" text="CVTa: Aumentar a rampa de aceleração" />
 		<text name="input_LMBF_TOGGLE_RAMPT" text="CVTa: Alternar rampa de aceleração" />
 		<text name="input_LMBF_TOGGLE_RAMPS1" text="CVTa: Mudar a rampa de aceleração 1" />
