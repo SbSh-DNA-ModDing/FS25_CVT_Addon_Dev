@@ -19,6 +19,9 @@
 		<text name="cvtgui_Cvthud" text="visibilidad" />
 		<text name="CVTAgui_CvthudPos" text="posición" />
 		<text name="variantTT" text="Elija una variante de transmisión; hay muchas transmisiones continuamente variables (CVT) diferentes.." />
+		<text name="HSTshuttleStateSettingTT" text="Los vehículos con sistema de pedales basculantes o de dos pedales pueden usar el embrague para cambiar de dirección.
+Las máquinas más modernas, como las cargadoras de ruedas, cuentan con un botón para esta función en el joystick, entre otros elementos." />
+		<text name="startWithClutchTT" text="Es necesario pisar el pedal del embrague, como ocurre con algunos vehículos en la vida real, pero no con otros." />
 		<text name="CvthudTT" text="Mostrar o deshabilitar la visualización del HUD." />
 		<text name="CvthudPOSTT" text="Posicionamiento de la pantalla HUD." />
 		<text name="CVTAguiHUD_on" text="a" />
@@ -109,6 +112,8 @@ Este ajuste permite influir en el cálculo resultante y ajustarlo para lograr un
 		<text name="drivingLevelStateTT" text="La velocidad máxima para rangos de conducción más bajos, o las rampas límite para HST y cosechadoras, se reduce o aumenta aquí. Por ejemplo, un vehículo de variación continua con dos rangos de conducción circula a máxima velocidad (50 km/h) en el rango 2 y a media velocidad (25 km/h) en el rango 1.
 Si este valor se establece ahora en bajo, sería de 22 km/h, y en muy bajo, de 15,5 km/h. Lo mismo ocurre con rangos más altos: alto, 28 km/h, y muy alto, 31 km/h." />
 		<text name="CVTAgui_drivingLevelStateTitle" text="Ajuste de velocidad" />
+		<text name="CVTAgui_HSTshuttleT" text="Richtungswechselart" />
+		<text name="CVTAgui_startWithClutchSettingTitle" text="Kupplung zum starten" />
 		<text name="selection_DLC_10000" text="muy bajo" />
 		<text name="selection_DLC_01000" text="más bajo" />
 		<text name="selection_DLC_00100" text="Normal" />
@@ -119,6 +124,10 @@ Si este valor se establece ahora en bajo, sería de 22 km/h, y en muy bajo, de 1
 		<text name="selection_hst_hst" text="HST" />
 		<text name="selection_hst_hydrostat" text="Hidrostato" />
 		<text name="selection_hst_brake" text="Pedal de acelerador único" />
+		<text name="selection_noClutch" text="Keine Kupplung" />
+		<text name="selection_withCluth" text="Mit Kupplung" />
+		<text name="selection_shuttle_shift" text="Wechseltaster" />
+		<text name="selection_shuttle_clutch" text="Kupplungspedal" />
 		<text name="text_HST_installed_short" text="hidrostato HST" />
 		<text name="text_CVT_Installed_short" text="Activo" />
 		<text name="text_CVT_Installed_desc" text="Complemento CVT activo y configurable en la GUI." />
@@ -129,6 +138,8 @@ Si este valor se establece ahora en bajo, sería de 22 km/h, y en muy bajo, de 1
 		<text name="input_SETVARIOTWO" text="CVTa: Zona de conducción 2" />
 		<text name="input_SETVARIO3" text="CVTa: Zona de conducción 3" />
 		<text name="input_SETVARIO4" text="CVTa: Zona de conducción 4" />
+		<text name="input_SETVARIOUP" text="CVTa: Fahrbereich erhöhen" />
+		<text name="input_SETVARIODN" text="CVTa: Fahrbereich verringern" />
 		<text name="input_SETVARIOTOGGLE" text="CVTa: Cambiar áreas de conducción" />
 		<text name="input_SETVARION" text="CVTa: Neutral" />
 		<text name="input_SETVARIOADIFFS" text="CVTa: AWD y DIFF automático" />
@@ -142,6 +153,10 @@ Si este valor se establece ahora en bajo, sería de 22 km/h, y en muy bajo, de 1
 		<text name="input_SETPREGLOW" text="CVTa: Velas pre-encendidas" />
 		<text name="input_SIGNAL_HIGH_BEAM" text="CVTa: Luces altas, luces de cruce para adelantar" />
 		<text name="input_SIGNAL_HOLD_BEAM" text="CVTa: Intermitente de luces altas" />
+		<text name="input_SETVCAAWD" text="VCA: Allrad umschalten" />
+		<text name="input_SETVCAFRONTDIFF" text="VCA: Differentialsperre Vorne" />
+		<text name="input_SETPIPELIGHT" text="CVT: Pipelicht umschalten" />
+		<text name="input_SETVCAREARDIFF" text="VCA: Differentialsperre Hinten" />
 		<text name="input_LMBF_TOGGLE_RAMP" text="CVTa: Aumentar la rampa de aceleración" />
 		<text name="input_LMBF_TOGGLE_RAMPT" text="CVTa: Cambiar rampa de aceleración" />
 		<text name="input_LMBF_TOGGLE_RAMPS1" text="CVTa: Cambiar a la rampa de aceleración 1" />

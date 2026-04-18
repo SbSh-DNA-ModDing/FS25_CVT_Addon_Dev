@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="105">
+<modDesc descVersion="107">
     <author>SbSh</author>
 	<contributor>Glowin</contributor>
-	<version>2.c.1.4</version>
+	<version>2.1.0.0</version>
 	<title>
         <en>CVT Addon</en>
     </title>
@@ -125,7 +125,25 @@ Likewise, telemetry output for telemetry from Upsidedown.
 e.g., automatic work lights currently active.
 Further information in the Wiki.
 
-Feedback and bug reports (and Wiki) are welcome at: https://github.com/s4t4n/FS25_CVT_Addon please.
+Feedback and bug reports (and Wiki) are welcome at: https://github.com/SbSh-DNA-ModDing/FS25_CVT_Addon_Dev please.
+
+- Changelog: 2.1.0.0
+ - Glow plug notification was visible to all clients.
+ - Fixed HST sync error in multiplayer.
+ - HST/hydrostat can now change direction via keybind, which some real-life vehicles have.
+ - Requirement to press clutch for starting is now configurable.
+ - Removed EV support due to multiplayer incompatibilities.
+ - Added differential keybindings for VCA.
+ - Added DLC vehicles to the shop.
+ - Separate keybinding for pipe light.
+ - Keybinding to manually switch between top and bottom lights.
+ - Shop config is enabled by default but configuration remains inactive, allowing mission vehicles to be set.
+ - Added keybindings for shifting driving ranges up and down.
+ - Added PT and ES community translations.
+ - Fixed issue where manual vehicle engines stalled immediately after preheating.
+ - Engine heats up or cools down while outside the vehicle when used with FS25_DashboardLive.
+ - Expanded and optimized DBL telemetry output.
+
 ]]></en>
         <de>
 <![CDATA[
@@ -247,7 +265,7 @@ z.B. Automatische Arbeitsscheinwerfer gerade aktiv.
 Weitere Infos im Wiki.
 
 Feedback und Fehlerberichte (und Wiki) gerne unter:
-https://github.com/s4t4n/FS25_CVT_Addon
+https://github.com/SbSh-DNA-ModDing/FS25_CVT_Addon_Dev
 
 - Changelog: 2.1.0.0
  - Textmeldung daß man vorgrlühen muß war für alle clients sichtbar
@@ -259,12 +277,14 @@ https://github.com/s4t4n/FS25_CVT_Addon
  - Differential Tastenbelegung für VCA hinzugefügt.
  - DLC Fahrzeuge im Shop hinzugefügt.
  - Tastenbelegung für das Rohrlicht einzeln.
+ - Tastenbelegung um das Top- und Bottomlicht manuell zu wechseln.
  - Shopconfig ist standartmäßg aktiviert, Konfiguration bleibt aber auf inaktiv,
   dadurch können nun Missionsfahrzeug eingestellt werden.
  - Fahrbereiche Tasten für hoch- und runterschalten hinzugefügt.
  - Sprachen um PT und ES aus der Communitiy erwitert.
- - Vorglühen bei manuellen Fahrzeugen ging der Motor sofort wieder aus,
-   ist gefixt.
+ - Vorglühen bei manuellen Fahrzeugen ging der Motor sofort wieder aus, ist gefixt.
+ - mit FS25_DashboardLive zusammen, der Motor wärmt auf oder kühlt ab außerhalb des Fahrzeugs.
+ - DBL Telemetrieausgabe erweitert und optimiert.
 ]]></de>
     </description> 
 
@@ -304,6 +324,7 @@ https://github.com/s4t4n/FS25_CVT_Addon
         <action name="SETVCAREARDIFF" />
         <action name="SETVCAFRONTDIFF" />
         <action name="SETPIPELIGHT" />
+        <action name="SETTOGGLETOPLIGHT" />
     </actions>
 	<inputBinding>
 		<actionBinding action="SETVARIOONE">
@@ -385,6 +406,9 @@ https://github.com/s4t4n/FS25_CVT_Addon
 			<binding device="KB_MOUSE_DEFAULT" input="" />
 		</actionBinding>
 		<actionBinding action="SETPIPELIGHT">
+			<binding device="KB_MOUSE_DEFAULT" input="" />
+		</actionBinding>
+		<actionBinding action="SETTOGGLETOPLIGHT">
 			<binding device="KB_MOUSE_DEFAULT" input="" />
 		</actionBinding>
 		
