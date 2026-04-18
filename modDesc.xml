@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="106">
+<modDesc descVersion="107">
     <author>SbSh</author>
 	<contributor>Glowin</contributor>
 	<version>2.1.0.0</version>
@@ -282,8 +282,7 @@ https://github.com/SbSh-DNA-ModDing/FS25_CVT_Addon_Dev
   dadurch können nun Missionsfahrzeug eingestellt werden.
  - Fahrbereiche Tasten für hoch- und runterschalten hinzugefügt.
  - Sprachen um PT und ES aus der Communitiy erwitert.
- - Vorglühen bei manuellen Fahrzeugen ging der Motor sofort wieder aus,
-   ist gefixt.
+ - Vorglühen bei manuellen Fahrzeugen ging der Motor sofort wieder aus, ist gefixt.
  - mit FS25_DashboardLive zusammen, der Motor wärmt auf oder kühlt ab außerhalb des Fahrzeugs.
  - DBL Telemetrieausgabe erweitert und optimiert.
 ]]></de>

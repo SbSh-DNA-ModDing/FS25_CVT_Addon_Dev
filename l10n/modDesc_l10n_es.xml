@@ -19,9 +19,9 @@
 		<text name="cvtgui_Cvthud" text="visibilidad" />
 		<text name="CVTAgui_CvthudPos" text="posición" />
 		<text name="variantTT" text="Elija una variante de transmisión; hay muchas transmisiones continuamente variables (CVT) diferentes.." />
-		<text name="HSTshuttleStateSettingTT" text="Fahrzeuge mir Pedalwippe oder 2 Pedalsystem können alternativ mit der Kupplung den Richtungswechseln vornehmen.
-Modernere Maschinen z.B. Hoflader haben u.a. am Joystick einen Taster für diese Funktion." />
-		<text name="startWithClutchTT" text="Das treten des Kupplungspedales wird vorrausgesetzt, wie es bei einigen Fahrzeugen auch in RL ist - und bei anderen widerrum nicht." />
+		<text name="HSTshuttleStateSettingTT" text="Los vehículos con sistema de pedales basculantes o de dos pedales pueden usar el embrague para cambiar de dirección.
+Las máquinas más modernas, como las cargadoras de ruedas, cuentan con un botón para esta función en el joystick, entre otros elementos." />
+		<text name="startWithClutchTT" text="Es necesario pisar el pedal del embrague, como ocurre con algunos vehículos en la vida real, pero no con otros." />
 		<text name="CvthudTT" text="Mostrar o deshabilitar la visualización del HUD." />
 		<text name="CvthudPOSTT" text="Posicionamiento de la pantalla HUD." />
 		<text name="CVTAguiHUD_on" text="a" />

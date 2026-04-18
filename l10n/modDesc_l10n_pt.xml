@@ -18,9 +18,9 @@
 		<text name="cvtgui_Cvthud" text="Visibilidade" />
 		<text name="CVTAgui_CvthudPos" text="Posição" />
 		<text name="variantTT" text="Selecione a variante da transmissão, existe uma variedade de diferentes transmissões contínuas." />
-		<text name="HSTshuttleStateSettingTT" text="Fahrzeuge mir Pedalwippe oder 2 Pedalsystem können alternativ mit der Kupplung den Richtungswechseln vornehmen.
-Modernere Maschinen z.B. Hoflader haben u.a. am Joystick einen Taster für diese Funktion." />
-		<text name="startWithClutchTT" text="Das treten des Kupplungspedales wird vorrausgesetzt, wie es bei einigen Fahrzeugen auch in RL ist - und bei anderen widerrum nicht." />
+		<text name="HSTshuttleStateSettingTT" text="Veículos com sistema de pedal basculante ou de dois pedais podem, alternativamente, usar a embreagem para mudar de direção.
+Máquinas mais modernas, como pás carregadeiras, possuem um botão para essa função no joystick, entre outros recursos." />
+		<text name="startWithClutchTT" text="É necessário pressionar o pedal da embreagem, como acontece com alguns veículos na vida real, mas não com outros." />
 		<text name="CvthudTT" text="HUD Visível ou desativar o ecrã." />
 		<text name="CvthudPOSTT" text="Posição do HUD." />
 		<text name="CVTAguiHUD_on" text="ligado" />
@@ -110,10 +110,10 @@ Modernere Maschinen z.B. Hoflader haben u.a. am Joystick einen Taster für diese
 		<text name="selection_hst_hst" text="HST" />
 		<text name="selection_hst_hydrostat" text="Hidrostato" />
 		<text name="selection_hst_brake" text="Pedal de condução único" />
-		<text name="selection_noClutch" text="Keine Kupplung" />
-		<text name="selection_withCluth" text="Mit Kupplung" />
-		<text name="selection_shuttle_shift" text="Wechseltaster" />
-		<text name="selection_shuttle_clutch" text="Kupplungspedal" />
+		<text name="selection_noClutch" text="Sem embreagem" />
+		<text name="selection_withCluth" text="Com embreagem" />
+		<text name="selection_shuttle_shift" text="interruptor de alternância" />
+		<text name="selection_shuttle_clutch" text="pedal da embreagem" />
 		<text name="text_HST_installed_short" text="HST Hidrostato" />
 		<text name="text_CVT_Installed_short" text="Ativo" />
 		<text name="text_CVT_Installed_desc" text="CVT-Addon ativo e configurável na GUI." />
