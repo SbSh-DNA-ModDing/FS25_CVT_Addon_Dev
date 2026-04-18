@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='utf-8'?>
+<l10n>
+    <translationContributors>Caymann_lo_re</translationContributors>
+	<texts>
+		<text name="txt_VarioOne" text=". " />
+		<text name="txt_VarioTwo" text=" ." />
+		<text name="txt_VarioN" text="N" />
+		<text name="txt_VarioR" text="↓" />
+		<text name="txt_VarioD" text="↑" />
+		<text name="txt_VarioRpmPlus" text="UPM +" />
+		<text name="txt_VarioRpmMinus" text="UPM -" />
+		<text name="CVTAgui_title" text="Impostazioni dell'ingranaggio aggiuntivo CVT" />
+		<text name="CVTAgui_for" text="per" />
+		<text name="CVTAgui_underTitle" text="La temperatura del motore non è sincronizzata nella modalità multigiocatore. Utilizza DashboardLive per questo scopo." />
+		<text name="CVTAgui_underTitle2" text=" " />
+		<text name="CVTAgui_Variant" text="Variante di marcia" />
+		<text name="CVTAgui_additionalFuncs" text="Funzioni extra" />
+		<text name="CVTAgui_Hud" text="HUD" />
+		<text name="cvtgui_Cvthud" text="Visibilità" />
+		<text name="CVTAgui_CvthudPos" text="Posizione" />
+		<text name="variantTT" text="Selezionare la variante di cambio, sono disponibili diversi cambi continui." />
+		<text name="startWithClutchTT" text="Si presuppone che venga premuto il pedale della frizione, come avviene in alcuni veicoli anche nella vita reale, mentre in altri no." />
+		<text name="CvthudTT" text="HUD Visualizza o disattiva il display." />
+		<text name="CvthudPOSTT" text="HUD Posizione." />
+		<text name="CVTAguiHUD_on" text="on" />
+		<text name="CVTAguiHUD_off" text="off" />
+		<text name="ui_alreadyAdmin" text="Hai già effettuato l'accesso come amministratore." />
+		<text name="text_CVT_title" text="CVT-Addon" />
+		<text name="text_CVT_cfg" text="Attiva CVTaddon" />
+		<text name="text_CVT_notInstalled_short" text="Inattivo" />
+		<text name="text_CVT_notInstalledTemp_short" text="Non attivo" />
+		<text name="text_CVT_notInstalled_desc" text="CVTaddon Non attivo, ma i veicoli vengono compensati in accelerazione." />
+		<text name="text_CVTclas_installed_short" text="CVT classico" />
+		<text name="text_CVTmod_installed_short" text="CVT moderno" />
+		<text name="text_ipmTitle" text="Gestione intelligente dell'alimentazione" />
+		<text name="drivinglevelTT" text="Numero di livelli di guida possibili.
+I diversi produttori e modelli presentano numerose varianti. Fendt, ad esempio, ne ha due, JD tre, Claas spesso tre e due.
+(Vario in arrivo) " />
+		<text name="accRampTT" text="Numero di possibili rampe di accelerazione.
+Diversi produttori e modelli presentano numerose varianti. Fendt, ad esempio, ne ha quattro, John Deere tre." />
+		<text name="antiSlipTT" text="Non appena si verifica uno slittamento delle ruote, la funzione interviene e frena le singole ruote." />
+		<text name="pitTT" text="Entra in curva invece di scivolare sull'asse anteriore. Real è disponibile solo presso Fendt." />
+		<text name="ipmTT" text="Boost per la gestione intelligente dell'alimentazione.
+Si ottiene un corrispettivo aumento delle prestazioni in caso di sottocarico di 14 km/h e/o di inserimento della presa di forza sotto carico.
+Si tratta di una versione relativamente moderna che consente di mantenere bassi i valori di emissione e di disporre comunque di maggiore potenza in caso di necessità." />
+		<text name="inchingTT" text="Il pedale della frizione viene utilizzato come pedale di avanzamento lento.
+Quando si preme, il veicolo diventa più veloce o più lento, anche quando il cruise control è attivato." />
+		<text name="reverseLightsTT" text="Durante la retromarcia, la luce di lavoro posteriore si accende automaticamente.
+Spesso presente in macchine moderne e di grandi dimensioni come quelle per la raccolta." />
+		<text name="reverseLightsDurationTT" text="Tempo in secondi durante il quale la luce deve rimanere accesa dopo la retromarcia." />
+		<text name="hstTT" text="HST or hydrostat Hydraulic transmission?
+HST Nessuna velocità automatica del motore, eccetto il controllo del minimo.
+Hydrostat è più automatizzato su diverse varianti e dispone principalmente di trazione integrale e propria,
+A seconda del produttore, anche motori idraulici al dettaglio." />
+		<text name="text_IPMboost0" text="no IPM" />
+		<text name="text_IPMboost15" text="IPM 15ps Boost" />
+		<text name="text_IPMboost22" text="IPM 22ps Boost" />
+		<text name="text_IPMboost27" text="IPM 27ps Boost" />
+		<text name="text_IPMboost34" text="IPM 34ps Boost" />
+		<text name="CVTAgui_drivinglevelT" text="Livello di guida" />
+		<text name="CVTAgui_accRampT" text="Rampe di accelerazione" />
+		<text name="CVTAgui_antiSlipT2" text="Antiscivolo automatico (vca necessario)" />
+		<text name="CVTAgui_antiSlipT" text="Antiscivolo automatico" />
+		<text name="CVTAgui_pitT2" text="Pull-In-Turn (vca necessario)" />
+		<text name="CVTAgui_pitT" text="Tirare-Girare" />
+		<text name="CVTAgui_HstTitle" text="Trasmissione idraulica" />
+		<text name="CVTAgui_inchingTitle" text="A piccoli passi" />
+		<text name="CVTAgui_reverseLightsTitle" text="Luce automatica in retromarcia" />
+		<text name="CVTAgui_reverseLightsDurationTitle" text="Durata del bagliore residuo" />
+		<text name="selection_drivinglevel_1" text="Vario" />
+		<text name="selection_drivinglevel_2" text="2" />
+		<text name="selection_drivinglevel_3" text="3" />
+		<text name="selection_drivinglevel_4" text="4" />
+		<text name="selection_accRamp_1" text="Automatico" />
+		<text name="selection_accRamp_2" text="2" />
+		<text name="selection_accRamp_3" text="3" />
+		<text name="selection_accRamp_4" text="4" />
+		<text name="selection_accRamp_5" text="5" />
+		<text name="selection_accRamp_6" text="6" />
+		<text name="selection_accRamp_7" text="7" />
+		<text name="selection_accRamp_8" text="8" />
+		<text name="selection_accRamp_9" text="9" />
+		<text name="selection_accRamp_10" text="10" />
+		<text name="selection_accRamp_01" text="1" />
+		<text name="selection_active" text="Attiva" />
+		<text name="selection_deactive" text="disattivare" />
+		<text name="selection_BF_20" text="20%" />
+		<text name="selection_BF_30" text="30%" />
+		<text name="selection_BF_40" text="40%" />
+		<text name="selection_BF_50" text="50%" />
+		<text name="selection_BF_60" text="60%" />
+		<text name="selection_BF_70" text="70%" />
+		<text name="selection_BF_80" text="80%" />
+		<text name="selection_BF_90" text="90%" />
+		<text name="selection_BF_default" text="100% default" />
+		<text name="selection_BF_110" text="110%" />
+		<text name="selection_BF_120" text="120%" />
+		<text name="selection_BF_130" text="130%" />
+		<text name="selection_BF_140" text="140%" />
+		<text name="selection_BF_150" text="150%" />
+		<text name="selection_BF_160" text="160%" />
+		<text name="selection_BF_170" text="170%" />
+		<text name="selection_BF_180" text="180%" />
+		<text name="selection_BF_190" text="190%" />
+		<text name="selection_BF_200" text="200%" />
+		<text name="brakeForceCorrectionNotTT" text="FS25_Compensazione forza freno motore non attiva" />
+		<text name="brakeForceCorrectionTitle" text="Compensazione del freno motore" />
+		<text name="brakeForceCorrectionModReq" text="Compensazione del freno motore (EBC necessario)" />
+		<text name="brakeForceCorrectionTT" text="L'effetto del freno motore viene calcolato dinamicamente e in base a vari fattori dall'add-on CVT.
+Con questa impostazione è possibile influenzare in modo mirato il calcolo risultante e, se lo si desidera, compensare un effetto frenante più forte o più debole." />
+		<text name="drivingLevelStateTT" text="La velocità massima per le aree di guida inferiori o le rampe di limite HST e le macchine da raccolta,
+sono ridotti o aumentati. Ad esempio, un veicolo senza marce con 2 aree di guida raggiunge la velocità massima (50 km/h) in 2, in 1 metà (25 km/h).
+Se imposti questo valore su basso, sarà pari a 22 km/h, molto inferiore a 15,5 km/h. Lo stesso vale per valori più alti, 28 km/h e molto alto 31 km/h." />
+		<text name="CVTAgui_drivingLevelStateTitle" text="Adattamento alla velocità" />
+		<text name="CVTAgui_HSTshuttleT" text="Tipo di cambio di direzione" />
+		<text name="CVTAgui_startWithClutchSettingTitle" text="Frizione per la partenza" />
+		<text name="selection_DLC_10000" text="molto basso" />
+		<text name="selection_DLC_01000" text="meno" />
+		<text name="selection_DLC_00100" text="Normale" />
+		<text name="selection_DLC_00010" text="più alto" />
+		<text name="selection_DLC_00001" text="molto alto" />
+		<text name="selection_inching_dn" text="Più lento" />
+		<text name="selection_inching_up" text="Faster" />
+		<text name="selection_hst_hst" text="HST" />
+		<text name="selection_hst_hydrostat" text="Idrostatico" />
+		<text name="selection_hst_brake" text="Pedale singolo di guida" />
+		<text name="selection_noClutch" text="Senza frizione" />
+		<text name="selection_withCluth" text="Con frizione" />
+		<text name="selection_shuttle_shift" text="Pulsante di commutazione" />
+		<text name="selection_shuttle_clutch" text="pedale della frizione" />
+		<text name="text_HST_installed_short" text="HST Idrostatico" />
+		<text name="text_CVT_Installed_short" text="Attiva" />
+		<text name="text_CVT_Installed_desc" text="CVT-Addon attivo e configurabile nella GUI." />
+		<text name="text_CVT_manuInstalled_short" text="Cambio manuale" />
+		<text name="text_CVT_ElektroInstalled_short" text="Elettrico (ad es. carrello elevatore)" />
+		<text name="text_CVT_HarvesterInstalled_short" text="Mietitrice" />
+		<text name="input_SETVARIOONE" text="CVTa: Livello di guida 1" />
+		<text name="input_SETVARIOTWO" text="CVTa: Livello di guida 2" />
+		<text name="input_SETVARIO3" text="CVTa: Livello di guida 3" />
+		<text name="input_SETVARIO4" text="CVTa: Livello di guida 4" />
+		<text name="input_SETVARIOUP" text="CVTa: aumentare l'intervallo di marcia" />
+		<text name="input_SETVARIODN" text="CVTa: ridurre l'intervallo di marcia" />
+		<text name="input_SETVARIOTOGGLE" text="CVTa: cambiare le gamme di marcia" />
+		<text name="input_SETVARION" text="CVTa: Neutrale" />
+		<text name="input_SETVARIOADIFFS" text="CVTa: AWD e DIFF automatico" />
+		<text name="input_CVT_SHOWGUI" text="CVTa: Apri menu impostazioni" />
+		<text name="input_CVT_TOGGLEARWL" text="CVTa: Attiva/disattiva luce di lavoro automatica in retromarcia" />
+		<text name="input_SETTOGGLETOPLIGHT" text="CVTa: Commutazione tra luci superiori e luci inferiori" />
+		<text name="input_SETVARIORPM_AXIS" text="CVTa: asse acceleratore manuale" />
+		<text name="input_SETVARIORPMP" text="CVTa: aumentare la velocità del motore" />
+		<text name="input_SETVARIORPMM" text="CVTa: Ridurre la velocità del motore" />
+		<text name="input_SETVARIORPMDMAX" text="CVTa: limite RPM (sperimentale)" />
+		<text name="input_SETPEDALTMS" text="CVTa: modalità pedale TMS" />
+		<text name="input_SETPREGLOW" text="CVTa: preriscaldamento delle candelette" />
+		<text name="input_SIGNAL_HIGH_BEAM" text="CVTa: Lampeggio abbagliante" />
+		<text name="input_SIGNAL_HOLD_BEAM" text="CVTa: High beam Flash" />
+		<text name="input_SETVCAAWD" text="VCA: Allrad umschalten" />
+		<text name="input_SETVCAFRONTDIFF" text="VCA: Blocco del differenziale anteriore" />
+		<text name="input_SETPIPELIGHT" text="CVT: commutazione della luce del tubo" />
+		<text name="input_SETVCAREARDIFF" text="VCA: Blocco del differenziale posteriore" />
+		<text name="input_LMBF_TOGGLE_RAMP" text="CVTa: aumentare la rampa di accelerazione" />
+		<text name="input_LMBF_TOGGLE_RAMPT" text="CVTa: Attiva/disattiva rampa di accelerazione" />
+		<text name="input_LMBF_TOGGLE_RAMPS1" text="CVTa: Cambia la rampa di accelerazione 1" />
+		<text name="input_LMBF_TOGGLE_RAMPS2" text="CVTa: Cambia la rampa di accelerazione 2" />
+		<text name="input_LMBF_TOGGLE_RAMPS3" text="CCVTa: Cambia la rampa di accelerazione 3" />
+		<text name="input_LMBF_TOGGLE_RAMPS4" text="CVTa: Cambia la rampa di accelerazione 4" />
+		<text name="input_LMBF_TOGGLE_RAMPS5" text="CVTa: Cambia la rampa di accelerazione 5" />
+		<text name="input_LMBF_TOGGLE_RAMPD" text="CVTa: Ridurre la rampa di accelerazione" />
+		<text name="input_LMBF_TOGGLE_BRAMP" text="CVTa: Modifica rampa di frenata" />
+		<text name="button_cvtrepair" text="Reset Usura trasmissione" />
+		<text name="txt_accRamp1" text="AR 1" />
+		<text name="txt_accRamp2" text="AR 2" />
+		<text name="txt_accRamp3" text="AR 3" />
+		<text name="txt_accRamp4" text="AR 4" />
+		<text name="txt_bRamp1" text="BR off" />
+		<text name="txt_bRamp2" text="BR  4" />
+		<text name="txt_bRamp3" text="BR  8" />
+		<text name="txt_bRamp4" text="BR 15" />
+		<text name="txt_bRamp5" text="BR 17" />
+		<text name="txt_vcaInfo" text="La bassa forza frenante è stata impostata nel VCA al 100% e le modifiche al motore sono state disattivate. Queste ultime possono essere riattivate, a seconda del veicolo, funzionano più o meno." />
+		<text name="txt_needClutch2start" text="Premere la frizione per avviare il motore." />
+		<text name="txt_needBrake2start" text="Tirare il freno a mano per avviare il motore." />
+		<text name="txt_needNoHG2start" text="Accendere il motore." />
+		<text name="txt_needpreGlow" text="Preriscaldamento necessario per l'avvio del motore!" />
+		<text name="txt_preGlow" text="Preriscaldamento..." />
+		<text name="txt_attCVTpressure" text="Attenzione, pressione troppo alta nella velocità di guida. Controllare la temperatura." />
+		<text name="txt_warn_tofastDn" text="Troppo veloce! Modificare il livello di guida a una velocità massima di 10 km/h, altrimenti il cambio si danneggia." />
+		<text name="txt_warn_tofastUp" text="Attenzione! Cambiare i livelli di guida a una velocità massima di 10 km/h, è preferibile fermarsi brevemente." />
+		<text name="help_page_title" text="CVT-Addon" />
+		<text name="help_page_Functions" text="Funzioni" />
+		<text name="help_page_startEngine_title" text="Avvia il motore" />
+		<text name="help_page_startEngine_text" text="La frizione deve essere innestata nei veicoli senza cambio di velocità.,
+Quindi lo stesso input che è anche l'accoppiamento normale. Con la configurazione idrostatica, se VCA è attivo,
+Il freno a mano è stato tirato per avviare il motore..
+Inoltre, l'acceleratore manuale non deve essere sollevato, ma deve essere posizionato su 0.." />
+		<text name="help_page_DL_title" text="Livello di guida" />
+		<text name="help_page_BLANK_text" text=" " />
+		<text name="help_page_DLimg_text" text="Il punto a sinistra indica l'area di viaggio I. Il punto a destra indica l'area di guida II." />
+        <text name="help_page_DL_text" text = "Ci sono 2 livelli di guida, il II è destinato ai viaggi su strada, al trasporto e ai lavori facili. Il livello I è più adatto ai lavori pesanti sul campo e ai trasporti pesanti.
+Anche la velocità massima è ridotta e la coppia garantisce una maggiore spinta, soprattutto in fase di avviamento.
+Per ogni fase deve essere assegnato un compito chiave. La modifica delle aree di guida deve avvenire a veicolo fermo, poiché anche in questo caso potrebbero verificarsi danni.
+*Un piccolo consiglio: se utilizzi i pulsanti del circuito di gruppo per alto/basso, puoi utilizzare gli stessi pulsanti per i livelli di guida.
+La particolarità della configurazione “moderna” è che le aree di guida sono regolamentate." />
+		<text name="help_page_AR_title" text="Rampe di accelerazione" />
+		<text name="help_page_AR_text" text="Inoltre, ora è presente una rampa di accelerazione a 4 livelli che può essere attivata tramite un pulsante.
+Qui viene influenzato il comportamento della marcia durante l'accelerazione e la riduzione della velocità di guida. Delicata e con sensibilità o a piena potenza e brusca.
+Con dispositivi pesanti o rimorchi, potrebbero verificarsi pressioni elevate nell'ingranaggio planetario che potrebbero danneggiarlo!
+Qui la rampa di accelerazione dovrebbe essere impostata su 3 o meno. Il livello 4 è più adatto per viaggi a vuoto.
+Nel campo leggero, è ancora possibile disegnare alla velocità 1 nella rampa di accelerazione 4, ad esempio icone a disco, grubber piatto." />
+		<text name="help_page_ARimg_text" text="Passaggi AR da 1 a 4" />
+		<text name="help_page_BR_title" text="Rampa frenante" />
+		<text name="help_page_BR_text" text="Per non indulgere in comode opzioni di impostazione, è anche possibile modificare la rampa dei freni.
+C'è anche un pulsante con cui è possibile passare a 5 livelli.
+La rampa di frenata a diversi livelli di velocità di 1 km/h (standard) 4, 8, 15 e 17 km/h,
+che quando si rilascia il pedale di comando o la leva di comando, il freno di servizio sostenga l'effetto del freno motore dalla rampa di frenata impostata.
+Questo può essere utile per lavori di smistamento o carico frontale, o semplicemente per viaggi su strada con frequenti soste." />
+		<text name="help_page_BRimg_text" text="Livelli di BR e da 1 a 4" />
+		<text name="help_page_tmsP_title" text="Modalità pedale TMS" />
+		<text name="help_page_tmsP_text" text="La modalità “Pedale” del TMS consente di controllare la risoluzione del pedale, ovvero di determinare la velocità massima del pedale.
+Con il cruise control disattivato, è possibile impostare i passaggi in quel punto.
+L'esempio 1 potrebbe essere al massimo 3 km/h. Il pedale reagisce quindi in percentuale, ovvero il 50% della corsa del pedale corrisponde a un massimo di 12 km/h, 6 km/h." />
+		<text name="help_page_HG_title" text="gas manuale" />
+		<text name="help_page_HG_text" text="Il comando manuale digitale ha solo una funzione decorativa, ma insieme ad un altro modulo (radas) è possibile controllare il sistema idraulico posteriore, le prestazioni della presa di forza, ecc. Esiste una funzione speciale con HST e pale gommate." />
+		<text name="help_page_aDiff_title" text="Differenziali automatici (richiede VCA o EV)" />
+		<text name="help_page_aDiff_text" text="Bloccaggio automatico del differenziale in funzione dell'angolo di sterzata e trazione integrale in funzione della velocità nella marcia I. Per il lavoro nei campi con preselezione automatica aggiuntiva da DL II a DL I. In una moderna configurazione CVT, la trazione integrale è sempre attiva e si regola automaticamente. È possibile attivare solo il bloccaggio automatico del differenziale dell'asse." />
+		<text name="help_page_HST_title" text="Trasmissione idrostatica HST" />
+		<text name="help_page_HST_text" text="Se un veicolo è configurato come HST, esistono due tipi di trasmissione idraulica che possono essere modificati tramite le precedenti gamme di marcia 1 e 2. Qui è necessario decidere quale tipo di veicolo si possiede: nella realtà, infatti, un veicolo non può avere entrambe le trasmissioni." />
+		<text name="help_page_HST1_text" text="1 è il classico HST, in cui il pedale è solitamente progettato come un bilanciere oppure sono presenti due pedali a sinistra e a destra, uno per la retromarcia e uno per la marcia avanti. Se si preme il pedale per una direzione di marcia, il veicolo si muove in base alla percentuale di pressione sul pedale, ma la velocità del motore rimane invariata (minimo). Ciò significa che non viene raggiunta la velocità massima. Per farlo è necessario utilizzare l'acceleratore manuale. Con l'acceleratore manuale al 100%, la velocità di marcia può comunque essere regolata in percentuale perché si tratta di una trasmissione idraulica. Inoltre, le prestazioni del caricatore frontale sulle pale gommate dipendono dall'acceleratore manuale, ovvero più bassa è la velocità del motore, che è anche la velocità della pompa, più lenti sono i cilindri di sollevamento idraulici. Inoltre, più pesante è l'attrezzo del caricatore frontale e più pesante è il carico, più bassa è l'impostazione dell'acceleratore manuale, minore è la velocità di sollevamento. Attenzione: se il motore è ancora freddo e si aziona il caricatore frontale, il motore può spegnersi." />
+		<text name="help_page_HST2_text" text="La versione 2 è quella più recente e offre molte altre varianti a seconda del produttore, ma non mi soffermerò su tutte. Oltre al freno, di solito c'è un solo pedale dell'acceleratore invece di due. C'è anche un joystick o qualcosa di simile con cui è possibile impostare la marcia avanti, la retromarcia e il folle, se necessario. Se si preme il pedale dell'acceleratore, il regime del motore si regola automaticamente e il veicolo accelera in base alla percentuale di pressione del pedale. Inoltre, la velocità del motore aumenta automaticamente non appena viene azionato il caricatore frontale, a condizione che il pedale dell'acceleratore sia premuto almeno allo 0,001%. Con il pedale in posizione 0%, è comunque necessario utilizzare l'acceleratore manuale per garantire una velocità minima. Nella realtà è leggermente diverso, ma purtroppo non è possibile implementarlo in questo modo nella meccanica di gioco." />
+		<text name="help_page_HST3_text" text="Caratteristiche della trasmissione: sono presenti motori idraulici direttamente sulle/dietro alle ruote oppure una trasmissione HST, che solitamente si occupa anche dell'alimentazione AWD con un albero cardanico (se disponibile). Quest'ultima è una variante più recente. Le AWD di vecchia generazione, in particolare i veicoli articolati, utilizzano una trasmissione idraulica nella parte anteriore e posteriore. Le rampe di accelerazione continua hanno una funzione leggermente diversa sulle HST! L'HUD indica quindi “HySt”, ma è comunque possibile passare da 1 a 4. Queste sono le gamme di velocità per le trasmissioni idrostatiche: 4 più veloce, 1 veloce, 2 lento, 3 più lento." />
+		<text name="help_page_HARVESTER_text" text="Questa configurazione è la scelta giusta per la maggior parte delle moderne trebbiatrici e trinciatrici. Tutto è molto simile alla configurazione HST, ma è presente una modalità campo e un'area di guida su strada, rappresentate dalle aree di guida 1 e 2. In modalità campo è anche possibile utilizzare un dispositivo di input corrispondente, ad esempio un joystick che non si centra o un acceleratore con centro, come leva di comando. Inoltre, i veicoli possono essere avviati semplicemente in questa configurazione. Ma fate attenzione se l'acceleratore manuale è ancora acceso e il motore non è ancora caldo. Come con l'HST, anche le rampe di accelerazione fungono da gamme di velocità." />
+		<text name="help_page_manual_title" text="Cambio manuale" />
+		<text name="help_page_manual_text" text="Se un veicolo ha un cambio manuale, è possibile specificarlo qui per utilizzare la funzione di riscaldamento del motore. Per i veicoli che hanno diverse varianti di cambio tra cui scegliere in officina, non è possibile leggere correttamente il tipo di cambio. Se non si desidera la funzione di riscaldamento sui veicoli con cambio manuale, selezionare l'opzione No." />
+		<text name="help_page_electic_title" text="Veicoli elettrici" />
+		<text name="help_page_electric_text" text="Questi veicoli non necessitano di riscaldamento e hanno una curva di accelerazione diversa. Con le gamme di guida è possibile scegliere tra una modalità di marcia lenta e una veloce. Le rampe servono a regolare la potenza della batteria e la quantità di energia disponibile per il motore di trazione. Più sono alte, maggiore è il consumo di kWh." />
+		<text name="help_page_beginning" text="Prefazione" />
+		<text name="help_page_keybinds_title" text="Combinazioni di tasti" />
+		<text name="help_page_keybinds_text" text="Non ci sono pulsanti assegnati di default; ognuno deve configurarli autonomamente." />
+		<text name="help_page_keysInfo_text" text="Per la frizione è possibile utilizzare lo stesso ingresso utilizzato per la frizione configurata per i cambi manuali. Anche le aree di guida possono avere le stesse assegnazioni, come quelle per gli interruttori di gruppo." />
+		<text name="help_page_heatSystem" text="Sistema di danni e surriscaldamento" />
+		<text name="help_page_cold_title" text="Motore freddo" />
+		<text name="help_page_cold_text" text="Il motore è al di sotto dei 45 °C ed è troppo freddo per l'accelerazione massima, massimo inferiore al numero massimo di giri al minuto: 1,5 Esempio: massimo 2200 giri al minuto: 1,5 = non superiore a circa 1460 giri al minuto. Attenzione, regimi troppo elevati a freddo aumentano drasticamente l'usura. Riscaldare con un'accelerazione delicata o una guida lenta senza aumentare troppo i giri. Questa funzione riguarda tutti i veicoli." />
+		<text name="help_page_warnHeat_title" text="Alta pressione nella trasmissione, surriscaldamento" />
+		<text name="help_page_warnHeat_text" text="Temperatura di avvertimento, c'è alta pressione; con un carico inferiore al 50% e un'accelerazione inferiore al 50% o quando si smette di guidare, si disattiverà una volta che il raffreddamento sarà sufficiente." />
+		<text name="help_page_warnDmg_title" text="Attenzione: potrebbe essere danneggiato" />
+		<text name="help_page_warnDmg_text" text="Nella parte superiore è presente un indicatore di avvertimento che segnala che l'attuale rampa di accelerazione potrebbe causare danni." />
+		<text name="help_page_critHeat_title" text="Calore critico" />
+		<text name="help_page_critHeat_text" text="Il rosso indica un allarme di temperatura critica. Meglio fermarsi e lasciare raffreddare." />
+		<text name="help_page_critDmg_title" text="Danni critici" />
+		<text name="help_page_critDmg_text" text="Indicatore di danni critici. Ora ha subito danni lievi o gravi. Per resettare la spia: lasciare raffreddare il motore, spegnerlo e riaccenderlo. Se il danno era troppo grave e la spia rimane accesa, l'elettronica della trasmissione passa alla modalità di sicurezza, riducendo l'accelerazione e la velocità massima. Se spegnendo/riaccendendo il motore la spia non si spegne, riparare prima il danno, lasciare raffreddare il motore e riavviarlo." />
+		<text name="help_page_wearTear_title" text="Usura" />
+		<text name="help_page_wearTear_text" text="Il danno non si verifica immediatamente; l'usura aumenta gradualmente. Se viene superato un certo livello insieme ad altri fattori, può verificarsi un danno effettivo fino al guasto totale. In realtà, le riparazioni o la sostituzione della trasmissione sono estremamente costose, quindi prestate attenzione." />
+		<text name="help_page_manuheat_title" text="Riscaldamento del motore con cambio manuale" />
+		<text name="help_page_manuheat_text" text="Per i cambi manuali, se non disabilitati in officina, anche il motore deve prima riscaldarsi. Sono disponibili 4 colori: blu - freddo, verde - ok, giallo/arancione - ok caldo, rosso - troppo caldo o giri troppo alti quando il motore è ancora freddo." />
+		<text name="title_PosOfHUD" text="CVT Addon" />
+		<text name="setting_PosOf_HUD" text="HUD Posizione" />
+		<text name="explanation_PosOf_HUD" text="Cambia la posizione dell'HUD o lo disattiva. Impostazione e memorizzazione per ciascun giocatore." />
+		<text name="selection_CVTaddonHUDpos_1" text="Standard" />
+		<text name="selection_CVTaddonHUDpos_2" text="Sopra" />
+		<text name="selection_CVTaddonHUDpos_3" text="Off" />
+		<text name="SettingChanged_title" text="CVT-Addon" />
+		<text name="SettingChanged" text="HUD modificato" />
+		<text name="SettingNorm" text="in Standard" />
+		<text name="SettingTop" text="su" />
+		<text name="SettingOff" text=".. è stato disattivato!" />
+		<text name="damageWT" text="Si prega di riparare, l'usura del tasso di guida è superiore" />
+		<text name="help_page_HUDset_title" text="HUD Posizione" />
+		<text name="help_page_HUDset_text" text="Nel menu di fuga, nelle impostazioni con il simbolo del trattore, è possibile modificare o disattivare la posizione dell'HUD in 2 varianti. Questa impostazione si applica per ogni giocatore." />
+	</texts>
+</l10n>
