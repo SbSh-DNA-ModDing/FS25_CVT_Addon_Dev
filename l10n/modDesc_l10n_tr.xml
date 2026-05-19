@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='utf-8'?>
+<l10n>
+    <texts>
+        <text name="txt_VarioOne" text=". " />
+        <text name="txt_VarioTwo" text=" ." />
+        <text name="txt_VarioN" text="N" />
+        <text name="txt_VarioR" text="↓" />
+        <text name="txt_VarioD" text="↑" />
+        <text name="txt_VarioRpmPlus" text="UPM +" />
+        <text name="txt_VarioRpmMinus" text="UPM -" />
+        <text name="CVTAgui_title" text="CVT-Addon Vites Ayarları" />
+        <text name="CVTAgui_for" text="için" />
+        <text name="CVTAgui_underTitle" text="Motor sıcaklığı çok oyunculu modda senkronize edilmez. Bunun için lütfen DashboardLive kullanın" />
+        <text name="CVTAgui_underTitle2" text=" " />
+        <text name="CVTAgui_Variant" text="Vites varyantı" />
+        <text name="CVTAgui_additionalFuncs" text="Ekstra fonksiyonlar" />
+        <text name="CVTAgui_Hud" text="HUD" />
+        <text name="cvtgui_Cvthud" text="Görünürlük" />
+        <text name="CVTAgui_CvthudPos" text="Konum" />
+        <text name="variantTT" text="Vites varyantını seçin, çeşitli farklı kademesiz vitesler mevcuttur." />
+        <text name="HSTshuttleStateSettingTT" text="Pedal salıncaklı veya iki pedallı sisteme sahip araçlar yön değiştirmek için alternatif olarak debriyajı kullanabilir.
+Tekerlekli yükleyiciler gibi daha modern makinelerde, diğer şeylerin yanı sıra joystick üzerinde bu işlev için bir düğme bulunur." />
+        <text name="startWithClutchTT" text="Debriyaj pedalına basılması, gerçek hayattaki bazı araçlarda olduğu gibi gereklidir - bazılarında ise değildir." />
+        <text name="CvthudTT" text="HUD Görünürlüğü veya ekranı devre dışı bırakın." />
+        <text name="CvthudPOSTT" text="HUD Konumu." />
+        <text name="CVTAguiHUD_on" text="Açık" />
+        <text name="CVTAguiHUD_off" text="Kapalı" />
+        <text name="ui_alreadyAdmin" text="Zaten yönetici olarak giriş yaptınız." />
+        <text name="text_CVT_title" text="CVT-Addon" />
+        <text name="text_CVT_cfg" text="CVTaddon etkinleştir" />
+        <text name="text_CVT_notInstalled_short" text="İnaktif" />
+        <text name="text_CVT_notInstalledTemp_short" text="Geçici inaktif" />
+        <text name="text_CVT_notInstalled_desc" text="CVTaddon aktif değil, ancak araçların hızlanması dengeleniyor." />
+        <text name="text_CVTclas_installed_short" text="CVT klasik" />
+        <text name="text_CVTmod_installed_short" text="CVT modern" />
+        <text name="text_ipmTitle" text="Akıllı Güç Yönetimi" />
+        <text name="drivinglevelTT" text="Olası sürüş seviyelerinin sayısı.
+Farklı üretici ve modellerin birçok varyantı vardır. Örneğin Fendt'te iki, JD'de üç, Claas'ta genellikle üç ve iki bulunur.
+(Vario yakında eklenecek)" />
+        <text name="accRampTT" text="Olası hızlanma rampası sayısı.
+Farklı üretici ve modellerin birçok varyantı vardır. Örneğin Fendt'te dört, John Deere'de üç bulunur." />
+        <text name="antiSlipTT" text="Tekerleklerde patinaj oluştuğu anda işlev devreye girer ve tek tek tekerlekleri frenler." />
+        <text name="pitTT" text="Ön aksın üzerinde kayıp gitmek yerine, virajın içine doğru kendini çeker. Gerçeği sadece Fendt'te." />
+        <text name="ipmTT" text="Akıllı Güç Yönetimi Takviyesi.
+14 km/s hızın üzerine çıkıldığında ve/veya PTO yük altında açıldığında karşılık gelen bir performans artışı sağlanır.
+Bu, Emisyon değerlerini düşük tutmak ve gerektiğinde hala daha fazla güce sahip olmak için nispeten modern bir versiyondur." />
+        <text name="inchingTT" text="Debriyaj pedalı İnçleme/yavaşlatma pedalı olarak kullanılır.
+Basıldığında hız sabitleyici devrede olsa bile araç hızlanır veya yavaşlar." />
+        <text name="reverseLightsTT" text="Geriye doğru sürerken arka çalışma lambası otomatik olarak yanar.
+Genellikle hasat gibi modern ve büyük makinelerde bulunur." />
+        <text name="reverseLightsDurationTT" text="Geri vitese takıldıktan sonra lambanın kaç saniye boyunca yanık kalacağı süresi." />
+        <text name="hstTT" text="HST veya hidrostatik hidrolik şanzıman?
+HST rölanti kontrolü hariç otomatik motor devri yoktur.
+Hidrostatik, farklı varyantlarda daha otomatiktir ve çoğunlukla dört tekerlekten çekişe ve üreticiye bağlı olarak kendi ayrı hidromotorlarına sahiptir." />
+        <text name="text_IPMboost0" text="AGT yok" />
+        <text name="text_IPMboost15" text="AGT 15bg Takviye" />
+        <text name="text_IPMboost22" text="AGT 22bg Takviye" />
+        <text name="text_IPMboost27" text="AGT 27bg Takviye" />
+        <text name="text_IPMboost34" text="AGT 34bg Takviye" />
+        <text name="CVTAgui_drivinglevelT" text="Sürüş Seviyesi" />
+        <text name="CVTAgui_accRampT" text="Hızlanma rampaları" />
+        <text name="CVTAgui_antiSlipT2" text="Oto Patinaj Önleme (VCA gerekli)" />
+        <text name="CVTAgui_antiSlipT" text="Oto Patinaj Önleme" />
+        <text name="CVTAgui_pitT2" text="Viraj İçi Çekiş (VCA gerekli)" />
+        <text name="CVTAgui_pitT" text="Viraj İçi Çekiş" />
+        <text name="CVTAgui_HstTitle" text="Hidro-sürüş" />
+        <text name="CVTAgui_inchingTitle" text="İnçleme" />
+        <text name="CVTAgui_reverseLightsTitle" text="Geri viteste Otomatik Lamba" />
+        <text name="CVTAgui_reverseLightsDurationTitle" text="Sonradan Yanma Süresi" />
+        <text name="selection_drivinglevel_1" text="Vario" />
+        <text name="selection_drivinglevel_2" text="2" />
+        <text name="selection_drivinglevel_3" text="3" />
+        <text name="selection_drivinglevel_4" text="4" />
+        <text name="selection_accRamp_1" text="otomatik" />
+        <text name="selection_accRamp_2" text="2" />
+        <text name="selection_accRamp_3" text="3" />
+        <text name="selection_accRamp_4" text="4" />
+        <text name="selection_accRamp_5" text="5" />
+        <text name="selection_accRamp_6" text="6" />
+        <text name="selection_accRamp_7" text="7" />
+        <text name="selection_accRamp_8" text="8" />
+        <text name="selection_accRamp_9" text="9" />
+        <text name="selection_accRamp_10" text="10" />
+        <text name="selection_accRamp_01" text="1" />
+        <text name="selection_active" text="Aktif" />
+        <text name="selection_deactive" text="Deaktif" />
+        <text name="selection_BF_20" text="20%" />
+        <text name="selection_BF_30" text="30%" />
+        <text name="selection_BF_40" text="40%" />
+        <text name="selection_BF_50" text="50%" />
+        <text name="selection_BF_60" text="60%" />
+        <text name="selection_BF_70" text="70%" />
+        <text name="selection_BF_80" text="80%" />
+        <text name="selection_BF_90" text="90%" />
+        <text name="selection_BF_default" text="100% varsayılan" />
+        <text name="selection_BF_110" text="110%" />
+        <text name="selection_BF_120" text="120%" />
+        <text name="selection_BF_130" text="130%" />
+        <text name="selection_BF_140" text="140%" />
+        <text name="selection_BF_150" text="150%" />
+        <text name="selection_BF_160" text="160%" />
+        <text name="selection_BF_170" text="170%" />
+        <text name="selection_BF_180" text="180%" />
+        <text name="selection_BF_190" text="190%" />
+        <text name="selection_BF_200" text="200%" />
+        <text name="brakeForceCorrectionNotTT" text="FS25_EngineBrakeforceCompensation inaktif" />
+        <text name="brakeForceCorrectionTitle" text="Motor freni dengeleme" />
+        <text name="brakeForceCorrectionModReq" text="Motor freni dengeleme (EBC gerekli)" />
+        <text name="brakeForceCorrectionTT" text="Motor freninin etkisi, CVT eklentisi tarafından dinamik olarak ve çeşitli faktörlere bağlı olarak hesaplanır.
+Bu ayar ile ortaya çıkan hesaplama hedefli bir şekilde etkilenebilir ve isteğe bağlı olarak daha güçlü veya daha zayıf bir frenleme etkisi için telafi edilebilir." />
+        <text name="drivingLevelStateTT" text="Daha düşük sürüş alanları veya HST ve hasat makineleri için sınır rampalarının maksimum hızı,
+bununla azaltılır veya artırılır. Örneğin, 2 sürüş alanına sahip kademesiz bir araç 2'de tam hız (50 km/s), 1'de ise yarım hız (25 km/s) ile gider.
+Bu değeri Düşük yaparsanız 22 km/s, Çok Düşük yaparsanız 15.5 km/s olur. Aynı kural Yüksek (28 km/s) ve Çok Yüksek (31 km/s) için de geçerlidir." />
+        <text name="CVTAgui_drivingLevelStateTitle" text="Hız adaptasyonu" />
+        <text name="CVTAgui_HSTshuttleT" text="Sürüş yönü değişimi" />
+        <text name="CVTAgui_startWithClutchSettingTitle" text="Motor çalıştırma için debriyaj" />
+        
+        <text name="selection_DLC_10000" text="Çok Düşük" />
+        <text name="selection_DLC_01000" text="Düşük" />
+        <text name="selection_DLC_00100" text="Normal" />
+        <text name="selection_DLC_00010" text="Yüksek" />
+        <text name="selection_DLC_00001" text="Çok Yüksek" />
+        <text name="selection_inching_dn" text="Daha Yavaş" />
+        <text name="selection_inching_up" text="Daha Hızlı" />
+        <text name="selection_hst_hst" text="HST" />
+        <text name="selection_hst_hydrostat" text="Hidrostat" />
+        <text name="selection_hst_brake" text="Tek sürüş pedalı" />
+        <text name="selection_noClutch" text="Debriyaj yok" />
+        <text name="selection_withCluth" text="Debriyaj var" />
+        <text name="selection_shuttle_shift" text="Mekik (Shuttle)" />
+        <text name="selection_shuttle_clutch" text="Debriyaj pedalı" />
+        
+        <text name="text_HST_installed_short" text="HST Hidrostat" />
+        <text name="text_CVT_Installed_short" text="Aktif" />
+        <text name="text_CVT_Installed_desc" text="CVT-Addon aktif ve GUI'den yapılandırılabilir." />
+        <text name="text_CVT_manuInstalled_short" text="Manuel şanzıman" />
+        <text name="text_CVT_ElektroInstalled_short" text="Elektrikli (örn. forklift)" />
+        <text name="text_CVT_HarvesterInstalled_short" text="Hasat makinesi" />
+        <text name="input_SETVARIOONE" text="CVTa: Sürüş Seviyesi 1" />
+        <text name="input_SETVARIOTWO" text="CVTa: Sürüş Seviyesi 2" />
+        <text name="input_SETVARIO3" text="CVTa: Sürüş Seviyesi 3" />
+        <text name="input_SETVARIO4" text="CVTa: Sürüş Seviyesi 4" />
+        <text name="input_SETVARIOUP" text="CVTa: Sürüş Seviyesini artır" />
+        <text name="input_SETVARIODN" text="CVTa: Sürüş Seviyesini düşür" />
+        <text name="input_SETVARIOTOGGLE" text="CVTa: Sürüş Seviyesi geçişi" />
+        <text name="input_SETVARION" text="CVTa: Boş (N)" />
+        <text name="input_SETVARIOADIFFS" text="CVTa: Dört Çeker ve Diferansiyel Otomatik" />
+        <text name="input_CVT_SHOWGUI" text="CVTa: Ayarlar menüsünü aç" />
+        <text name="input_CVT_TOGGLEARWL" text="CVTa: Geri viteste otomatik çalışma lambasına geç" />
+        <text name="input_SETTOGGLETOPLIGHT" text="CVTa: Üst ve alt lambalar arasında geçiş yap" />
+        <text name="input_SETVARIORPM_AXIS" text="CVTa: El gazı ekseni" />
+        <text name="input_SETVARIORPMP" text="CVTa: Motor devrini artır" />
+        <text name="input_SETVARIORPMM" text="CVTa: Motor devrini azalt" />
+        <text name="input_SETVARIORPMDMAX" text="CVTa: Devir Sınırı (deneysel)" />
+        <text name="input_SETPEDALTMS" text="CVTa: TMS pedal modu" />
+        <text name="input_SETPREGLOW" text="CVTa: Kızdırma bujilerini önceden ısıt" />
+        <text name="input_SIGNAL_HIGH_BEAM" text="CVTa: Uzun far Flaş" />
+        <text name="input_SIGNAL_HOLD_BEAM" text="CVTa: Uzun far Flaş (Basılı tut)" />
+        <text name="input_SETVCAAWD" text="VCA: 4 Çeker aç-kapa" />
+        <text name="input_SETVCAFRONTDIFF" text="VCA: Ön diferansiyel kilidi" />
+        <text name="input_SETPIPELIGHT" text="CVT: Boru lambası geçişi" />
+        <text name="input_SETVCAREARDIFF" text="VCA: Arka diferansiyel kilidi" />
+        
+        <text name="input_LMBF_TOGGLE_RAMP" text="CVTa: Hızlanma rampasını artır" />
+        <text name="input_LMBF_TOGGLE_RAMPT" text="CVTa: Hızlanma rampası geçişi" />
+        <text name="input_LMBF_TOGGLE_RAMPS1" text="CVTa: 1. hızlanma rampasına geç" />
+        <text name="input_LMBF_TOGGLE_RAMPS2" text="CVTa: 2. hızlanma rampasına geç" />
+        <text name="input_LMBF_TOGGLE_RAMPS3" text="CVTa: 3. hızlanma rampasına geç" />
+        <text name="input_LMBF_TOGGLE_RAMPS4" text="CVTa: 4. hızlanma rampasına geç" />
+        <text name="input_LMBF_TOGGLE_RAMPS5" text="CVTa: 5. hızlanma rampasına geç" />
+        <text name="input_LMBF_TOGGLE_RAMPD" text="CVTa: Hızlanma rampasını azalt" />
+        <text name="input_LMBF_TOGGLE_BRAMP" text="CVTa: Fren rampasını değiştir" />
+        <text name="button_cvtrepair" text="Şanzıman Aşınmasını Sıfırla" />
+        <text name="txt_accRamp1" text="HR 1" />
+        <text name="txt_accRamp2" text="HR 2" />
+        <text name="txt_accRamp3" text="HR 3" />
+        <text name="txt_accRamp4" text="HR 4" />
+        <text name="txt_bRamp1" text="FR Kapalı" />
+        <text name="txt_bRamp2" text="FR 4" />
+        <text name="txt_bRamp3" text="FR 8" />
+        <text name="txt_bRamp4" text="FR 15" />
+        <text name="txt_bRamp5" text="FR 17" />
+        <text name="txt_vcaInfo" text="Düşük frenleme kuvveti VCA'da %100 olarak ayarlandı ve motor modifikasyonları devre dışı bırakıldı. İkincisi araca bağlı olarak yeniden etkinleştirilebilir; az ya da çok çalışır." />
+        <text name="txt_needClutch2start" text="Motoru başlatmak için debriyaja basın." />
+        <text name="txt_needBrake2start" text="Motoru başlatmak için el frenini çekin." />
+        <text name="txt_needNoHG2start" text="Motoru başlatmak için el gazını kapatın." />
+        <text name="txt_needpreGlow" text="Motorun çalışması için ön ısıtma gereklidir!" />
+        <text name="txt_preGlow" text="Ön ısıtılıyor..." />
+        <text name="txt_attCVTpressure" text="Dikkat, şanzıman ünitesinde çok yüksek basınç. Sıcaklığı takip edin." />
+        <text name="txt_warn_tofastDn" text="Çok hızlı! Sürüş seviyesini en fazla 10 km/s hızındayken değiştirin, aksi takdirde şanzıman hasar görür." />
+        <text name="txt_warn_tofastUp" text="Dikkat! Sürüş seviyelerini en fazla 10 km/s hızındayken değiştirin, kısaca durmak en iyisidir." />
+        <text name="help_page_title" text="CVT-Addon" />
+        <text name="help_page_Functions" text="Fonksiyonlar" />
+        <text name="help_page_startEngine_title" text="Motoru başlat" />
+        <text name="help_page_startEngine_text" text="Kademesiz araçlarda debriyaja basılmalıdır.
+Yani normal debriyajla aynı işlev görür. Hidrostatik konfigürasyonda, VCA aktifse,
+Motoru başlatmak için el freninin çekilmiş olması gerekir.
+Ayrıca el gazı kaldırılmamalıdır, 0 olmalıdır." />
+        <text name="help_page_DL_title" text="Sürüş Seviyesi" />
+        <text name="help_page_BLANK_text" text=" " />
+        <text name="help_page_DLimg_text" text="    Sol nokta sürüş alanı I'i gösterir. Sağ nokta sürüş alanı II'yi gösterir. " />
+        <text name="help_page_dl_text" text="2 sürüş seviyesi vardır. Seviye II yolculuklar, taşıma ve kolay işler için tasarlanmıştır. Seviye I daha zorlu tarla işleri ve ağır taşımalar içindir.
+Maksimum hız da düşürülür ve tork özellikle kalkışta daha fazla itiş sağlar.
+Her aşama için bir tuş ataması yapılmalıdır. Sürüş alanlarını değiştirmek dururken yapılmalıdır, aksi halde hasar oluşabilir.
+*Küçük bir ipucu: Yüksek/düşük için grup devre düğmelerini kullanıyorsanız, aynı düğmeleri sürüş seviyeleri için de kullanabilirsiniz.
+'Modern' konfigürasyonun özel özelliği, sürüş alanlarının otomatik düzenlenmesidir." />
+        <text name="help_page_AR_title" text="Hızlanma rampaları" />
+        <text name="help_page_AR_text" text="Ayrıca, artık bir düğme ile geçiş yapılabilen 4 aşamalı bir hızlanma rampası var.
+Burada aracı hızlandırırken ve sürüş hızını düşürürken takımın davranışı etkilenir. Nazik ve hisli veya tam güç ve sert.
+Ağır ekipmanlarda veya römorklarda gezinme dişlisinde yüksek basınçlar oluşabilir ve hasar görebilir!
+Burada hızlanma rampası 3 veya daha altına ayarlanmalıdır. 4. seviye daha çok boş yolculuklar için uygundur.
+Hafif tarla işlerinde, 4. hızlanma rampasında hala 1. hıza güvenebilirsiniz -
+örneğin, diskli tırmıklar, düz kültivatörler." />
+        <text name="help_page_ARimg_text" text="HR Adımları 1'den 4'e kadar" />
+        <text name="help_page_BR_title" text="Fren rampası" />
+        <text name="help_page_BR_text" text="Rahat ayar seçeneklerinden mahrum kalmamak için, fren rampasını da değiştirebilirsiniz.
+Ayrıca 5 adıma değiştirilebilen bir düğme de mevcuttur.
+Farklı hız seviyelerinde fren rampası: 1 km/s (standart), 4, 8, 15 ve 17 km/s.
+Sürüş pedalı veya sürüş kumanda kolu bırakıldığında, işletim freni ile ayarlanan fren rampasından gelen motor fren etkisini destekler.
+Bu, manevra veya ön yükleyici çalışmaları için ya da sadece dur-kalk yolculuklarında yardımcı olabilir." />
+        <text name="help_page_BRimg_text" text="FR seviyeleri 1'den 4'e kadar" />
+        <text name="help_page_tmsP_title" text="TMS Pedal Modu" />
+        <text name="help_page_tmsP_text" text="TMS 'Pedal' modu, bununla pedal çözünürlüğünü kontrol edebilirsiniz. Yani, pedalın maksimum hızını belirler.
+Devre dışı bırakılmış hız sabitleyici ile orada adımları ayarlarsınız.
+Örneğin, Adım 1 maksimum 3 km/s olabilir. Pedal daha sonra yüzde olarak yanıt verir, bu durumda %50 pedal yolu maksimum 1.5 km/s hıza karşılık gelir." />
+        <text name="help_page_HG_title" text="El gazı" />
+        <text name="help_page_HG_text" text="Dijital el gazı, normalde yalnızca dekoratif bir işleve sahiptir; ancak başka bir mod ile (radas), arka hidrolik veya PTO performansı gibi sistemleri kontrol edebilir. HST ve tekerlekli yükleyiciler ile özel bir konfigürasyona sahiptir." />
+        <text name="help_page_aDiff_title" text="Oto Diferansiyeller (VCA veya EV gerekli)" />
+        <text name="help_page_aDiff_text" text="Direksiyon açısına bağlı otomatik diferansiyel kilidi ve vites Seviyesi I'de hıza bağlı 4 çeker. DL II'den DL I'e otomatik önseçim ile tarla işleri için tasarlanmıştır. Modern bir CVT konfigürasyonunda dört tekerlekten çekiş kalıcı olarak aktiftir ve kendini düzenler. Sadece otomatik aks diferansiyel kilidini etkinleştirebilirsiniz." />
+        <text name="help_page_HST_title" text="Hidrostat HST Sürüş Modu" />
+        <text name="help_page_HST_text" text="Bir araç HST olarak yapılandırılmışsa, 1. ve 2. sürüş aralıkları olarak değiştirilebilen iki farklı hidrolik sürüş tipi vardır. Burada aracınızın sahip olduğu doğru tipi seçmelisiniz - gerçekte bir araç her ikisine birden sahip olamaz." />
+        <text name="help_page_HST1_text" text="1, ayak pedalının genellikle salıncak gibi tasarlandığı veya ileri ve geri için ayrı iki pedalı olan klasik HST'dir. Bir yöne doğru pedala basarsanız araç pedalın yüzdesine göre hareket eder, ancak motor devri değişmeden (rölantide) kalır. Bu, maksimum hıza ulaşılmayacağı anlamına gelir. Bunun için el gazı kullanılmalıdır. %100 el gazında hareket hızı, hidrolik bir sürüş olduğundan hala yüzde ile işletilebilir. Dahası, tekerlekli yükleyicilerde ön yükleyicinin performansı el gazına bağlıdır. Yani motor devri (ve aynı zamanda pompa devri) ne kadar düşük olursa, hidrolik kaldırma silindirleri o kadar yavaş hareket eder. Ön yükleyici aracı ne kadar ağır ve yüklüyse, düşük ayarlanmış el gazında kalkış/kaldırma hızı o kadar yavaş olur. Dikkat edin, motor soğukken ön yükleyiciyi çalıştırırsanız, motor stop edebilir." />
+        <text name="help_page_HST2_text" text="2, üreticiye bağlı olarak başka birçok varyant sunan daha yeni sürümüdür - hepsine girmeyeceğim. Ek olarak, iki yerine sadece bir hız pedalı ve üzerinde bir fren bulunur. İleri, geri ve boş vitesi seçebileceğiniz bir joystick de olabilir. Seçilen hız pedalı itildiğinde, motor devri otomatik olarak düzenlenir ve basılan pedal yüzdesine göre araç hızlanır. Dahası, hız pedalına en az %0,001 basıldığı sürece, ön yükleyiciyle işlem yaparken motor devri otomatik olarak artar. %0 pedal pozisyonunda, bir minimum hızı güvence altına almak için halen el gazı kullanılmalıdır. Gerçek hayatta bu biraz farklıdır, ancak oyun mekaniğinde ne yazık ki tamamen gerçekleştirilemiyor." />
+        <text name="help_page_HST3_text" text="Sürüş Özellikleri: Ya doğrudan tekerleklerin üzerinde/arkasında hidrolik motorlar vardır ya da genellikle bir kardana sahip olan ve aynı zamanda AWD(dört çeker) kontrolünü de üstlenen bir HST şanzıman bulunur. İkincisi daha ziyade yeni bir seçenektir. Eski tip AWD'de (özellikle kırma şasili araçlarda) önde ve arkada hidrolik dişliler kullanılır. Kademesiz hızlanma rampaları HST'lerde biraz farklı işlev görür! HUD'de o zaman 'HySt' yazar. Ancak 1 ile 4 arasında geçiş yapılabilinir. Hidrostatik sürücülerde hız aralıkları şöyledir: 4 (en hızlı), 1 (hızlı), 2 (yavaş), 3 (en yavaş)" />
+        <text name="help_page_HARVESTER_text" text="Çoğu modern biçerdöverler için bu konfigürasyon doğru seçimdir. HST konfigürasyonuna çok benzer, ancak bir tarla modu ve bir yol sürüş alanı bulunur (Sürüş alanları 1 ve 2 bunu temsil eder). Tarla modunda bir sürüş manivelası için merkezsiz bir joystick veya bir gaz/basınç kolu kullanılabilir. Ek olarak, bu takımlarda araçlar bu konfigurasyonla doğrudan çalıştırılabilir. Ancak, eğer el gazı hala açıksa ve motor ısınmadıysa dikkatli olun. HST'de olduğu gibi hızlanma rampaları yine hız sahası/aralığı işlevi görür." />
+        <text name="help_page_manual_title" text="Manuel Şanzıman" />
+        <text name="help_page_manual_text" text="Eğer aracın düz (manuel) vitesi varsa, buradan aracın motorunu ısıtma özelliğinden yine de faydalanabileceğinizi belirtebilirsiniz. Mağazada seçilebilecek çeşitli aktarma organlarına sahip traktörlerde şanzıman tipini her zaman düzgün okumak olanaksızdır. Manuel araçlarda ısınma işlevini istemiyorsanız Hayır'ı seçin." />
+        <text name="help_page_electic_title" text="Elektrikli Araçlar" />
+        <text name="help_page_electric_text" text="Bu araçlar ısınma gerektirmez ve farklı bir hızlanma eğrisinden geçerler. Sürüş sahası ile yavaş veya hızlı sefer opsiyonu sağlanır. Rampalar, batarya yönetiminden kaynaklı çıkış güçlerini ve elektrik motorunun ne kadar destek aldığını kontrol eder. Seçim ne kadar yüksekse, harcanan kWh de o kadar yüksek olur." />
+        <text name="help_page_beginning" text="Önsöz" />
+        <text name="help_page_keybinds_title" text="Tuş atamaları" />
+        <text name="help_page_keybinds_text" text="Varsayılan olarak atanan hiçbir özel düğme yoktur; bunu herkesin kendisi belirlemesi gerekir." />
+        <text name="help_page_keysInfo_text" text="Kavrama (debriyaj) için manuel vites konfigürasyonunda atadığınız aynı girdileri kullanabilirsiniz. Benzer şekilde, sürüş grupları için yapılan tuş atamalarını sürüş alanlarına (Drive Levels / Gruplar) da atayabilirsiniz." />
+        <text name="help_page_heatSystem" text="Hasar ve hararet Sistemi" />
+        <text name="help_page_cold_title" text="Motor çok soğuk" />
+        <text name="help_page_cold_text" text="Motor 45°C'nin altındadır ve tam gaz vermek için fazla soğuktur; maksimum RPM : 1.5 gibi bir tavan değerde tıkanır. Örnek: maks 2200 dev/dk : 1.5 = ortalama olarak 1460 devrin üstüne çıkılmaz. Dikkat: motor çok soğukken yüksek devir çevrilmesi aşınmayı gözle görülür ölçüde artırır. Çok zorlamadan gaza basarak veya motoru hafif devirde yavaşca kullanarak ısıtın. Bu özellik bütün makinalara etki eder." />
+        <text name="help_page_warnHeat_title" text="Güç aktarımında yüksek basınç, hararet uyarısı" />
+        <text name="help_page_warnHeat_text" text="Sıcaklık uyarı bildirisidir, basınç yükselmiştir. %50'den az yük, %50'den daha az gaz pozisyonunda veya aracı durdurduğunuzda makina yeterli ölçüde soğuyacak ve sinyal sönecektir." />
+        <text name="help_page_warnDmg_title" text="Uyarı: Sistem Zarar Görebilir" />
+        <text name="help_page_warnDmg_text" text="Üstte, mevcut ivmeleme/hızlanma rampasının hasarlara zemin hazırlayabileceğine dikkat çeken bir uyarı göstergesi belirir." />
+        <text name="help_page_critHeat_title" text="Kritik sıcaklık" />
+        <text name="help_page_critHeat_text" text="Kırmızı, kritik sıcaklık bildirisidir. Tercihen durmalı ve aracın soğumasına müsaade etmelisiniz." />
+        <text name="help_page_critDmg_title" text="Kritik Hasar" />
+        <text name="help_page_critDmg_text" text="Kritik dereceli hasar göstergesidir. Sistem büyük/küçük yara almıştır. Işığı sıfırlamak (Söndürmek) için: Motorun soğumasını bekleyin ve motoru kapatıp yeniden çalıştırın. Eğer aktarım ciddi ölçüde hasarlıysa ve lamba yanmaya devam ediyorsa; araç sürüş elektroniğini güvenlik moduna çeker, kalkışı ve maksimum ulaşılabilir hızı ciddi ölçüde kısıtlar. Kapatıp açmak ışığı yok etmezse ilk olarak makinayı tamir edin ve ardından yeniden soğutma/kontak kapatma denemesi yapın." />
+        <text name="help_page_wearTear_title" text="Aşınma" />
+        <text name="help_page_wearTear_text" text="Aşınma hasarı anlık gelişmez. Kademeli olarak artar. Belirlenen düzey aşıldığında diğer çeşitli metrikler de üst üste biner ise, sonuç tamamen çöküşe gidecek yapısal gerçek arızalar doğurur. Unutulmamalıdır ki, CVT/Şanzıman veya tüm sistemi yenilemek hatırı sayılır derecede pahalıdır. – Bu yüzden biraz dikkatli olun." />
+        <text name="help_page_manuheat_title" text="Manuel Vitesli Araçlarda Motorun Isınması" />
+        <text name="help_page_manuheat_text" text="Eğer mağazadan kapatılmamışsa, manuel/standart vites kullanan traktörler bile öncelikle ısıtılmalıdır. Ekranda dört adet renk durumu bulunmalıdır: Mavi - soğuk | Yeşil - Her şey yolunda | Sarı/Turuncu - Araç İdeal Isıda | Kırmızı - Motor hala soğukken aşırı zorlama ya da fazla ısı üretimi." />
+        <text name="title_PosOfHUD" text="CVT Addon" />
+        <text name="setting_PosOf_HUD" text="HUD Konumu" />
+        <text name="explanation_PosOf_HUD" text="HUD'un konumunu değiştirmenizi veya kapatmanızı sağlar. Bu seçenekler her oyuncu profili için ayrı ayrı saklanır." />
+        <text name="selection_CVTaddonHUDpos_1" text="Standart" />
+        <text name="selection_CVTaddonHUDpos_2" text="Üstte" />
+        <text name="selection_CVTaddonHUDpos_3" text="Kapalı" />
+        <text name="SettingChanged_title" text="CVT-Addon" />
+        <text name="SettingChanged" text="HUD değiştirildi" />
+        <text name="SettingNorm" text="Standart konumda" />
+        <text name="SettingTop" text="Yukarıda" />
+        <text name="SettingOff" text=".. devre dışı bırakıldı!" />
+        <text name="damageWT" text="Lütfen aracınızı onarın, şanzıman/diferansiyel aşınması limiti geçti: Lütfen onarın, şanzıman ünitesindeki aşınma sınırın üzerinde " />
+        <text name="help_page_HUDset_title" text="HUD Konumu" />
+        <text name="help_page_HUDset_text" text="Kaçış (Esc) menüsünde traktör logosu altındaki ayarlarda HUD yerleşimi 2 farklı şekile değiştirilebilir ya da tamamen kaptılabilir. Bu yapılandırma her istemcinin/oyuncunun kendisine hastır." />
+    </texts>
+</l10n>
